@@ -1,0 +1,30 @@
+name: RainbowCrystal
+main: rainbowcrystal.RainbowCrystal
+description: Requested plugin by undeaD_D
+version: 1.0
+author: DieFriiks
+authors: [DieFriiks, CustomCraftDev, undeaD_D]
+databse: false
+commands:
+  crystal:
+    usage: /er <give/reload/disable/reset>
+    description: reload/reset/disable rainbowcrystal plugin
+permissions:
+  rc.place:
+    description: abilitie to place crystal
+  rc.break:
+    description: abilitie to break crystal
+  rc.give:
+    description: give yourself an crystal
+  rc.*:
+    description: grants every permission from rainbowcrystal
+    children:
+      rc.reload: true
+      rc.reset: true
+      rc.disable: true
+  rc.reload:
+    description: reload rainbowcrystal at runtime
+  rc.reset:
+    description: reset rainbowcrystal config at runtime and reload after
+  rc.disable:
+    description: disables rainbowcrystal at runtime  
