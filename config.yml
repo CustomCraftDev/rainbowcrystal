@@ -1,0 +1,25 @@
+# @author DieFriiks / CustomCraftDev / undeaD_D
+# @version 1.0
+
+debug: false
+nopermission-msg: '&CYou shall not pass !!!'
+
+Crystal:
+  Name: 'R&1a&2i&3n&4b&5o&6w&rCrystal'
+  Lore:
+   - '&3Rightclick on ground to place'
+   - '&cbreak the block to get it back'
+  Speed: 10
+  Speed-info: 'speed = Ingame Ticks ...'
+  Type: true
+  Type-info: 'true = glass / false = wool'
+  Color:
+   - 'RED'
+   - 'BLUE'
+   - 'WHITE'
+   - 'YELLOW'
+   - 'GREEN'
+  Color-info: 'http://jd.bukkit.org/rb/apidocs/org/bukkit/DyeColor.html'
+Locations:
+  info: 'DONT change anything here ...'
+  amount: 0
